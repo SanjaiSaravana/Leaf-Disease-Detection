@@ -1,0 +1,16 @@
+{
+  "name": "cnn-yolo-project",
+  "version": "1.0.0",
+  "description": "Unified launcher for plant pathology hybrid model (CNN + YOLO)",
+  "scripts": {
+    "backend": "cd backend && uvicorn app:app --reload",
+    "frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\" --kill-others"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

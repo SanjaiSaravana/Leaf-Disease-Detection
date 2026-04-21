@@ -1,0 +1,7 @@
+.env
+node_modules/
+__pycache__/
+*.h5
+*.pt
+runs/
+.DS_Store

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Corn Common Rust', 'Peach_Bacterial_Spot', 'Strawberry leaf scorch', 'Tomato Late Blight']
+
+roboflow:
+  workspace: deep-learning-00dij
+  project: plant-pathology-kqtes
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deep-learning-00dij/plant-pathology-kqtes/dataset/3

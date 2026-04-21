@@ -1,0 +1,49 @@
+:root {
+  --bg-deep: #0c1210;
+  --bg-card: #141c19;
+  --bg-elevated: #1a2420;
+  --border: rgba(124, 168, 140, 0.22);
+  --text: #e8f0eb;
+  --text-muted: #8fa89a;
+  --accent: #5ecf8a;
+  --accent-dim: rgba(94, 207, 138, 0.15);
+  --warning: #e8b84a;
+  --danger: #f07167;
+  --radius: 14px;
+  --font: "DM Sans", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--font);
+  background: var(--bg-deep);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse 120% 80% at 50% -30%, rgba(94, 207, 138, 0.12), transparent),
+    radial-gradient(ellipse 60% 50% at 100% 100%, rgba(80, 120, 100, 0.08), transparent);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+input[type="file"] {
+  display: none;
+}
